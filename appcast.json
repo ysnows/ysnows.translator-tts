@@ -1,12 +1,5 @@
 {
   "identifier": "ysnows.translator-tts",
   "versions": [
-    {
-      "version": "0.0.7",
-      "desc": "feat: 1. 优化",
-      "url": "https://github.com/ysnows/enconvo-translator/releases/download/v0.0.7/enconvo-translator.enconvoplugin",
-      "minAppVersion": "1.1.8"
-    },
-
   ]
 }
