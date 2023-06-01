@@ -1,0 +1,53 @@
+name: Translator&ReadAloud
+version: 0.0.1
+author: ''
+on: {}
+steps:
+- name: ''
+  uses: plugin
+  env:
+    Plugin:
+      type: enum
+      value: enconvo.translator
+      sort: 0
+      messages: []
+- name: ''
+  uses: plugin
+  env:
+    Plugin:
+      type: enum
+      value: ysnows.azure-tts
+      sort: 0
+      messages: []
+extensionId: 45f938390c8a1708c4cb1520f0ff90e9
+logo: sparkles
+description: Translator&ReadAloud
+async: false
+homePage: ''
+appCast: ''
+minAppVersion: 0.0.1
+flowType: chain
+options:
+- title: General
+  items:
+  - identifier: Alias
+    type: text
+    title: Alias
+    defaultValue: ''
+    menuValues: []
+    desc: ''
+    placeholderText: Add alias
+    textWidth: 1.6e+2
+    disable: false
+  - identifier: Hotkey
+    type: hotkey
+    title: Hotkey
+    defaultValue: ''
+    menuValues: []
+    desc: "This shortcut will open an ai conversation window from anywhere in the
+      system\n      . Make sure it is not conflicting with other global shortcuts."
+    placeholderText: Add a hotkey to global start
+    textWidth: 1.6e+2
+    disable: false
+  desc: ''
+sort: 200
