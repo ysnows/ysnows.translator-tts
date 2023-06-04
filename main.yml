@@ -1,5 +1,5 @@
 name: Translator&ReadAloud
-version: 0.0.6
+version: 0.0.7
 author: ''
 on: {}
 steps:
@@ -25,7 +25,7 @@ description: Translator&ReadAloud
 async: false
 homePage: https://github.com/ysnows/ysnows.translator-tts
 appCast: https://raw.githubusercontent.com/ysnows/ysnows.translator-tts/main/appcast.json
-minAppVersion: 0.0.1
+minAppVersion: 1.2.1
 flowType: chain
 options:
 - title: General
