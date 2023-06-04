@@ -2,6 +2,12 @@
   "identifier": "ysnows.translator-tts",
   "versions": [
     {
+      "version": "0.0.7",
+      "desc": "Merge remote-tracking branch 'origin/main'",
+      "url": "https://github.com/ysnows/ysnows.translator-tts/releases/download/v0.0.7/ysnows.translator-tts.enconvoplugin",
+      "minAppVersion": "1.1.8"
+    },
+    {
       "version": "0.0.6",
       "desc": "feat: 1. optimize",
       "url": "https://github.com/ysnows/ysnows.translator-tts/releases/download/v0.0.6/ysnows.translator-tts.enconvoplugin",
